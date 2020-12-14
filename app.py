@@ -60,7 +60,7 @@ def predict():
     if prediction == 0:
         return render_template('homeloanresult.html')
     else:
-        return render_template('homeloanresultneg.html')
+        return render_template('homeloanneg.html')
 
 @app.route('/predict3', methods=['POST', 'GET'])
 def predict3():
